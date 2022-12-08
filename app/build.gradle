@@ -32,11 +32,13 @@ android {
     }
     buildFeatures {
         viewBinding true
+        dataBinding true
     }
 }
 
 dependencies {
     def lifecycle_version = "2.4.0"
+    def fragment_version = "1.5.3"
 
 
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -50,5 +52,14 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.fragment:fragment:$fragment_version"
+    implementation "androidx.fragment:fragment-ktx:$fragment_version"
     implementation "androidx.viewpager2:viewpager2:1.0.0"
+
+    implementation "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycle_version"
+
+
+    //coil library
+    implementation "io.coil-kt:coil:2.2.2"
+
 }

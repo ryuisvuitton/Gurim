@@ -23,4 +23,16 @@
     <string name="home_tab_name_release_information">발매정보</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- banner bottom button text (2022.11.30 기준)-->
+    <string name="button_text_weeks_brand">   이번주\n브랜드관</string>
+    <string name="button_text_male_recommend">남성 추천</string>
+    <string name="button_text_female_recommend">여성 추천</string>
+    <string name="button_text_lucky_draw">럭키드로우</string>
+    <string name="button_text_chick_promotion">시크 프로젝트</string>
+    <string name="button_text_low_price">정가 아래</string>
+    <string name="button_text_popularity_luxury">인기 럭셔리</string>
+    <string name="button_text_worldcup">모두의 축제</string>
+    <string name="button_text_daily_codi">데일리 코디</string>
+    <string name="button_text_best_outer">BEST 아우터</string>
 </resources>
